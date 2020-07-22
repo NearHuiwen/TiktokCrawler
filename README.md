@@ -96,7 +96,7 @@ https://v.douyin.com/JYqGpRJ/
 ### 获取用户分享链接的方法（挑战、音乐 类似）
 <p align="center">
 <img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/master/picture/step1.jpg" width="160">
-<img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/master/picture/step2.png" width="160">
+<img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/master/picture/step2.png" width="450">
 </p>
 
 然后保存文件,双击运行`amemv-video-ripper.py`或者在终端(terminal)里面
