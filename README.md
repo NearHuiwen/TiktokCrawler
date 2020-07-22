@@ -1,4 +1,4 @@
-TiktokCrawler抖音爬虫（无水印）,多线程爬虫+JS逆向
+TiktokCrawler抖音爬虫（无/去掉水印）,多线程爬虫+JS逆向
 ===============
 
 > 项目普及技术：JS逆向（调用JS文件）、抖音的一些接口加密、多线程操作、某些Linux命令操作（可在Win或Linux运行）
@@ -95,8 +95,8 @@ https://v.douyin.com/JYqGpRJ/
 
 ### 获取用户分享链接的方法（挑战、音乐 类似）
 <p align="center">
-<img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/tree/master/picture/step1.jpg" width="160">
-<img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/tree/master/picture/step2.png" width="160">
+<img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/master/picture/step1.jpg" width="160">
+<img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/master/picture/step2.png" width="160">
 </p>
 
 然后保存文件,双击运行`amemv-video-ripper.py`或者在终端(terminal)里面
@@ -133,7 +133,7 @@ python amemv-video-ripper.py --url URL --favorite
 实在无法命名文件，则以“无名文件+时间”命名
 
 然后重新运行下载命令.
-<p align="center"><img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/tree/master/picture/end-of-run.png" width="800"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/NearHuiwen/TiktokCrawler/master/picture/end-of-run.png" width="800"></p>
 
 ## 高级应用
 
