@@ -152,7 +152,7 @@ class DownloadWorker(Thread):
             medium_type, uri, download_url, target_folder = self.queue.get()
             # 下载
             download(medium_type, uri, download_url, target_folder)
-            # 从队列里删掉一个元素
+            # tase_done()的作用：只有消费者把队列所有的数据处理完毕，queue.join()才会停止阻塞
             self.queue.task_done()
 
 
@@ -569,7 +569,7 @@ class CrawlerScheduler(object):
         print(content)
         if not content:
             print('\n\nWeb Api Error: %s'
-                  '\n\nheaders: %s'
+                  '\n\nhears: %s'
                   '\n\nparams: %s' % (url, str(headers), str(params),))
             return None
         return json.loads(content)
